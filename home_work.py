@@ -5,7 +5,16 @@
 # ^-ЗАДАНИЕ-^
 
 
-def GetPallindrome(str) -> bool:
+def GetPalindrome2(str) -> bool:
+        if str == str[::-1]:
+                return True
+        else:
+                return False
+
+
+        
+
+def GetPalindrome(str) -> bool:
         lst = []
         for i in str:
             lst.append(i)
